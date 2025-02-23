@@ -179,22 +179,3 @@ if __name__ == "__main__":
         else:
             print("Invalid choice. Please try again.")
 
-"""
-How Everything Fits Together Creating a Note:
-
-When you add a note, the NotesManager creates either a TextNote or ReminderNote object and stores it in the notes list.
-
-Each note gets a unique ID.
-
-Displaying Notes:
-
-The display() method of each note is called to show its details.
-
-Searching Notes:
-
-The program looks through all the notes and checks if the keyword is in the content.
-
-Deleting Notes:
-
-The program finds the note with the given ID and removes it from the notes list.
-"""
