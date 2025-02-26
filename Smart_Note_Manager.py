@@ -138,11 +138,11 @@ class NotesManager:
 # The user interface that allows you to interanct with th Notes Manager.
 
 # Step 4: Main Program Execution
-if __name__ == "__main__":
+def main():
     manager = NotesManager()  # Create a NotesManager instance
 
     while True:
-        print("\n=== Smart Notes Manager ===")
+        print("\n=== Welcome to Smart Notes Manager ===")
         print("1. Add a Text Note")
         print("2. Add a Reminder Note")
         print("3. View All Notes")
@@ -179,3 +179,6 @@ if __name__ == "__main__":
         else:
             print("Invalid choice. Please try again.")
 
+# Step 5: Call the main() function
+if __name__ == "__main__":
+    main()
